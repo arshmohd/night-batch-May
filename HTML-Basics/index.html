@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Basics</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Heading Tag -->
     <h1>HTML Crash Course</h1>
     <h2>HTML Crash Course</h2>
@@ -15,10 +15,107 @@
     <h5>HTML Crash Course</h5>
     <h6>HTML Crash Course</h6>
     <!-- Paragraph Tag -->
-    <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis sapiente, mollitia reprehenderit recusandae repudiandae beatae sed quos aperiam dolorem ea quidem, maxime animi iusto dolor. Similique, amet nam recusandae, libero eligendi ratione nesciunt tempora at adipisci architecto, est aut.</p>
+    <p>
+      VS @code does so many things right. I’m constantly impressed by the UX,
+      and customizing workspace / user preferences is no exception. 🙌🏼💯 It just
+      keeps getting better ❤️
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis
+      sapiente, mollitia reprehenderit recusandae repudiandae beatae sed quos
+      aperiam dolorem ea quidem, maxime animi iusto dolor. Similique, amet nam
+      recusandae, libero eligendi ratione nesciunt tempora at adipisci
+      architecto, est aut.
+    </p>
     <!-- Link Tag -->
     <a href="https://thewebdev.tech/">TWD Blog</a>
-    <a href="https://www.linkedin.com/in/nabendu-biswas/" target="_blank">LinkedIn</a>
-</body>
+    <a href="https://www.linkedin.com/in/nabendu-biswas/" target="_blank"
+      >LinkedIn</a
+    >
+
+    <!--Form Tag-->
+    <form action="">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" />
+      </div>
+      <br />
+      <div>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="color">Favorite Color</label>
+        <select name="" id="">
+          <option value="red">Red Color</option>
+          <option value="blue">Blue Color</option>
+          <option value="green">Green Color</option>
+        </select>
+      </div>
+      <div>
+        <h4>What do you own?</h4>
+        <input type="checkbox" name="vehicle1" value="bike" id="bike" />
+        <label for="bike">Bike</label>
+        <input type="checkbox" name="vehicle2" value="car" id="car" />
+        <label for="car">Car</label>
+        <input type="checkbox" name="vehicle3" value="boat" id="boat" />
+        <label for="boat">boat</label>
+      </div>
+      <div>
+        <h4>Gender</h4>
+        <input type="radio" name="gender" value="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="other" id="other" />
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <input type="submit" value="send" />
+      </div>
+      <br />
+      <button>Click</button>
+
+      <div>
+        <h2>Date File Assignment-1</h2>
+        <h3>Assignment input type-1</h3>
+        <p>
+          The <strong><input type="date" /></strong> is used for input fields
+          that should contain a date.
+        </p>
+        <form action="/action_page.php">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" />
+          <input type="submit" value="Submit" />
+        </form>
+        <p>
+          The <strong>Note:</strong> type="date" is is not supported in Internet
+          Explorer 11 or prior Safari 14.1..
+        </p>
+      </div>
+      <br />
+      <div>
+        <h1>File upload Assignment</h1>
+        <p>
+          Show a file-select field which allows a file to be chosen for upload:
+        </p>
+        <form action="/action_page.php">
+          <label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile" /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </form>
+    <div>
+      <h2>Images</h2>
+      <img src="images/cat-1.jpg" alt="mobile" width="600" height="400" />
+      <img src="https://placeimg.com/640/480/tech" alt="tech" />
+    </div>
+  </body>
 </html>
