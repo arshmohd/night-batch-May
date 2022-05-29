@@ -1,0 +1,149 @@
+*
+*::before
+*::After{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Big Shoulders Display', cursive, 'Lexend Deca',
+    sans-serif;
+}
+
+.main {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.main-card-1,
+.main-card-2,
+.main-card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 307px;
+
+}
+
+#button-1 {
+  color: #E28625;
+  border: 2px solid #E28625;
+}
+
+#button-1:active, #button-1:hover {
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  background-color: #E28625;
+}
+
+#button-2 {
+  color: #006971;
+  border: 2px solid #006971;
+}
+
+#button-2:active,
+#button-2:hover {
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  background-color: #006971;
+}
+
+#button-3 {
+  color: #004140;
+  border: 2px solid #004140;
+}
+
+#button-3:active,
+#button-3:hover {
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  background-color: #004140;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+p {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.main-card-1 {
+  background-color: #E28625;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.main-card-2 {
+  background-color: #006971;
+}
+
+.main-card-3 {
+  background-color: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+img {
+  height: 40px;
+  width: 64px;
+}
+
+.box-context {
+  margin-left: 47.5px;
+  margin-right: 47.5px;
+}
+
+.para {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+button {
+  height: 48px;
+  width: 146px;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+}
+
+@media(min-width: 769px) {
+
+  .main {
+      display: flex;
+      margin: 171px 260px 129px 450px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+.main {
+      display: flex;
+      flex-direction: column;
+    }
+
+}
