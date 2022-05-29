@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 31.5rem;
+  min-height: 31.5rem;
   width: 19.1rem;
 
 }
