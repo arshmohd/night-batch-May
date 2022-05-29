@@ -22,8 +22,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 500px;
-  width: 307px;
+  height: 31.5rem;
+  width: 19.1rem;
 
 }
 
@@ -34,31 +34,31 @@ body {
 
 #button-1:active, #button-1:hover {
   color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: 0.125rem solid #f2f2f2;
   background-color: #E28625;
 }
 
 #button-2 {
   color: #006971;
-  border: 2px solid #006971;
+  border: 0.125rem solid #006971;
 }
 
 #button-2:active,
 #button-2:hover {
   color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: 0.125rem solid #f2f2f2;
   background-color: #006971;
 }
 
 #button-3 {
   color: #004140;
-  border: 2px solid #004140;
+  border: 0.125rem solid #004140;
 }
 
 #button-3:active,
 #button-3:hover {
   color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: 0.125rem solid #f2f2f2;
   background-color: #004140;
 }
 
@@ -66,8 +66,8 @@ h1 {
   font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   text-transform: uppercase;
   color: #f2f2f2;
 }
@@ -76,8 +76,8 @@ p {
   font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
   /* or 167% */
   color: #FFFFFF;
   mix-blend-mode: normal;
@@ -86,8 +86,8 @@ p {
 
 .main-card-1 {
   background-color: #E28625;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .main-card-2 {
@@ -96,38 +96,38 @@ p {
 
 .main-card-3 {
   background-color: #004140;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 img {
-  height: 40px;
-  width: 64px;
+  height: 2.5rem;
+  width: 4rem;
 }
 
 .box-context {
-  margin-left: 47.5px;
-  margin-right: 47.5px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .para {
   font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 3rem;
+  line-height: 1.5rem;
 }
 
 button {
-  height: 48px;
-  width: 146px;
+  height: 3rem;
+  width: 9.1rem;
   background-color: #f2f2f2;
-  border-radius: 25px;
+  border-radius: 1.5rem;
   font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
   /* identical to box height, or 167% */
 }
 
@@ -135,7 +135,7 @@ button {
 
   .main {
       display: flex;
-      margin: 171px 260px 129px 450px;
+      margin: 10.6rem 16.2rem 8rem 28.1rem;
     }
 
 }
