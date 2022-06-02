@@ -56,5 +56,6 @@ h6 {
 .container {
   display: grid;
   gap: 20px;
-  grid-template-columns: 25% 25% 25% 25%;
+  border: 5px solid black;
+  grid-template-columns: 200px 150px;
 }
