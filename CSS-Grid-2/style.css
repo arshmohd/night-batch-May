@@ -86,3 +86,9 @@ h6 {
   background: sienna;
   grid-column: 1/-2;
 }
+
+.item20 {
+  background: linen;
+  grid-column:  1 / -3;
+  grid-row:  8/10;
+}
