@@ -57,5 +57,5 @@ h6 {
 .container {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5,1fr);
 }
