@@ -62,5 +62,5 @@ h6 {
 
 .item9 {
   background: moccasin;
-  width: 500px;
+  grid-column: span 2;
 }
