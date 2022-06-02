@@ -57,4 +57,5 @@ h6 {
   display: grid;
   grid-template-columns: 200px 500px;
   grid-template-rows: 200px 100px 300px;
+  gap: 5px;
 }
