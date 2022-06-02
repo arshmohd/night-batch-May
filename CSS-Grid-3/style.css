@@ -55,4 +55,9 @@ h6 {
 }
 
 
-/* <-- --!> */
+.container {
+  display: grid;
+  gap: 20px;
+  border: 10px solid black;
+  grid-template-columns: repeat();
+}
