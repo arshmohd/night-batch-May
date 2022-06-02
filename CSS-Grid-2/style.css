@@ -68,6 +68,7 @@ h6 {
 
 .item16 {
   background: lightcyan;
-  grid-column-start: 2;
-  grid-column-end: 6;
+  /* grid-column-start: 2;
+  grid-column-end: 6; */
+  grid-column:  2 / 6;
 }
