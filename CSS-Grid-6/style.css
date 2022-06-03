@@ -73,7 +73,7 @@ h6 {
   border: 10px solid black;
   grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(5, 100px);
-  justify-content: start;
+  justify-content: space-evenly;
 }
 
 .itm {
