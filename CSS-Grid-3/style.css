@@ -59,7 +59,7 @@ h6 {
   display: grid;
   gap: 20px;
   border: 10px solid black;
-  grid-template-columns: repeat(autofit, 150px);
+  grid-template-columns: repeat(auto-fill, 150px);
 }
 
 .item4 {
