@@ -70,10 +70,10 @@ h6 {
 .container{
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(10, 1fr);
+  border: 10px solid black;
+  grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(5, 100px);
-  justify-items: end;
-  align-items: end;
+  justify-content: start;
 }
 
 .itm {
