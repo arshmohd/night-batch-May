@@ -68,5 +68,9 @@ h6 {
             align-* is column axis
         */
 
-
+.container{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+}
 
