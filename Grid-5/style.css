@@ -54,39 +54,3 @@ h6 {
   margin: 0 0 5px 0;
 }
 
-.container {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 1fr 10fr 1fr;
-  grid-template-rows: repeat(2, 150px) 100px;
-  grid-template-areas:
-    "sidebar-1 content sidebar-2"
-    "sidebar-1 content sidebar-2"
-    "footer footer footer"
-}
-
-.footer{
-  grid-area: footer;
-}
-
-.item1 {
-  grid-area: sidebar-1;
-}
-
-.item2 {
-  grid-area: content;
-}
-
-.item3 {
-  grid-area: sidebar-2;
-}
-
-@media (max-width: 700px) {
-  .container{
-    grid-template-areas:
-        "content content content"
-        "sidebar-1 sidebar-1 sidebar-2"
-        "footer footer footer"
-  }
-}
-
