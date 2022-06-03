@@ -71,6 +71,7 @@ h6 {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(10, 1fr);
+  justify-items: stretch;
 }
 
 .itm {
