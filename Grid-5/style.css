@@ -59,3 +59,18 @@ h6 {
   gap: 20px;
   grid-template-columns: repeat(10, 1fr);
 }
+
+.item:nth-child(6n){
+  background: linen;
+  grid-column: span 6;
+}
+
+.item:nth-child(8n) {
+  background: lightblue;
+  grid-column: span 2;
+}
+
+.item:nth-child(9n) {
+  background: lawngreen;
+  grid-column: span 2;
+}
