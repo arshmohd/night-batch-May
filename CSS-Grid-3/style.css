@@ -70,6 +70,6 @@ h6 {
   display: grid;
   gap: 20px;
   border: 10px solid darkblue;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(autofit, minmax(150px, 1fr));
 
 }
