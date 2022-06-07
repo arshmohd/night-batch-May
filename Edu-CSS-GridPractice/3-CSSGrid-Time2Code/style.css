@@ -1,0 +1,22 @@
+body{
+  display: grid;
+  min-height: 100%;
+
+  /* #1: Laymans solution
+
+  grid-template-rows: 100% 100px;
+  grid-template-columns: 50px 100%; */
+
+
+  /* #2: Smarter solution
+
+      grid-template-rows: calc(100% - 50px) 50px;
+        grid-template-columns: 50px calc(100%-50px); */
+
+  /* #3: Efficient solution
+      The fractional unit (fr) The fractional unit solves the problem of automatically distributing space.
+        */
+
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr 50px;
+}
