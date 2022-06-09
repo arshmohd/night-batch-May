@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  min-height: 100vh;
+  min-width: 100%;
+  grid-template-rows: 1fr 90px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "content"
+    "footer";
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  font-size: 0.8rem;
+
+  /* #1: Laymans solution
+
+  grid-template-rows: 100% 100px;
+  grid-template-columns: 50px 100%; */
+
+  /* #2: Smarter solution
+
+      grid-template-rows: calc(100% - 50px) 50px;
+        grid-template-columns: 50px calc(100%-50px); */
+
+  /* #3: Efficient solution
+      The fractional unit (fr) The fractional unit solves the problem of automatically distributing space.
+        */
+}
+
+.aside i {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  grid-area: content;
+
+}
+
+.footer {
+  grid-area: footer;
+  background-color: royalblue;
+}
+
+.aside {
+  grid-area: sidebar;
+  background-color: #f2f2f2;
+}
+
+.main-header > .img {
+  grid-area: img;
+}
+
+.main-header > .details {
+  grid-area: details;
+  color: white;
+}
+
+.main-header {
+  display: grid;
+  grid-template-areas:
+    "img"
+    "details";
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.main-body > div {
+  display: flex;
+  padding: 8px;
+}
+
+.main-body > div p {
+  flex: 0 0 25%;
+}
+
+footer {
+  display: flex;
+  flex: 0 0 10px;
+  padding: 10px;
+  color: #fff;
+  background-color: #43689B;
+
+}
+
+.footer-text-image {
+  display: flex;
+  margin-right: auto;
+}
+
+.footer-text-image img {
+  padding-right: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: grid;
+    grid-template-rows: 1fr 90px;
+    grid-template-columns: 45px 1fr;
+    grid-template-areas:
+      "sidebar content"
+      "footer footer";
+  }
+
+  .aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* display: grid; */
+  }
+
+  .aside i {
+    display: flex;
+    align-self: center;
+
+    /* border: 1px solid red;
+      justify-items: center;
+      align-items: center; */
+  }
+
+  .main-header {
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "img details";
+  }
+}
+
+@media screen and (max-width: 600px) {
+.sm--hide {
+  display: none;
+}
+
+.sm--text-right {
+  text-align: right;
+}
+
+  .main-header {
+    justify-items: center;
+  }
+
+  .main-header > .details {
+    text-align: center;
+  }
+
+  .sm--hide {
+    display: none;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  .main-body > div p {
+    flex: 0 0 50%;
+  }
+}
