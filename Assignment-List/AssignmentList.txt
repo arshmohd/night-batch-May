@@ -1,0 +1,29 @@
+Github - https://github.com/nabendu82/night-batch-May
+Assignment - Do two projects from this series. First two - Nivya, Next two - Abdul, Next two - Vinayak, Next two - Irfan
+
+https://youtu.be/ONDPSNAK4-U
+
+
+👉 Fylo data storage component
+👉 Four Card Feature section
+👉 Single Price grid component
+👉 Base Apparel coming soon page
+👉 Huddle landing page with a single introductory section
+👉 Social Proof Section
+
+👉 Article Preview Component
+👉 Coding bootcamp testimonials slider
+
+👉 Huddle landing page with alternating feature blocks
+👉 Pricing component with toggle
+
+
+Assignment 4 & 5: Irfan
+👉 Article Preview Component
+👉 Coding bootcamp testimonials slider
+
+Assignment-6: - Complete the project with Grid from fronendmentor site.
+Irfan- https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
+
+
+

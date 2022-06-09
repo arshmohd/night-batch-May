@@ -1,0 +1,10 @@
+JSbins - https://jsbin.com/lecesuc/edit?js,console
+https://jsbin.com/rizifij/edit?js,console
+https://jsbin.com/ruforos/edit?js,console
+
+Assignment -
+Learn about the array methods of concat, every, filter, find, findIndex, flat, forEach, join, reverse, shift, slice, some, splice, toString  from the below link
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+Put all in JSBin and send here
